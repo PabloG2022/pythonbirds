@@ -6,7 +6,7 @@ class Pessoa:
         return f'oLá {id(self)}'
 
 if __name__ == '__main__':
-    p = Pessoa()
+    p = Pessoa('joao')
     print(Pessoa.cumprimentar(p))
     print(id(p))
     print(p.cumprimentar())
